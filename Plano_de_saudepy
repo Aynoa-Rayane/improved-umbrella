@@ -1,0 +1,87 @@
+#Aynoã Rayane do Nasciemnto Ferreira, 32385447, 01O11
+
+N = 0
+while N <= 0:
+  N = int(input("Digite sua idade: "))
+  if N <= 0:
+    print("Idade inválida. A idade deve ser maior que zero.")
+
+while N < 18:
+    if N < 18:
+      print("Menu:")
+      print("Plano Bronze - opção 1")
+      print("Plano Ouro - opção 2")
+        
+      opcao = input("Digite a opção: ")
+        
+      if opcao == "1":
+            print("Valor do plano Bronze: 500 R$")
+      elif opcao == "2":
+            print("Valor do plano Ouro: 650 R$")
+      else:
+            print("Opção inválida. Por favor, escolha 1 para Plano Bronze ou 2 para Plano Ouro.")
+      break
+while N >= 18 and N < 50:
+    if N >= 18 and N < 50:
+        print("Menu:")
+        print("Plano Bronze - opção 1")
+        print("Plano Ouro - opção 2")
+        
+        opcao = input("Digite a opção: ")
+        
+        if opcao == "1":
+            print("Valor do plano Bronze: 750 R$")
+        elif opcao == "2":
+            print("Valor do plano Ouro: 925 R$")
+        else:
+            print("Opção inválida. Por favor, digite 1 para Plano Bronze ou 2 para Plano Ouro.")
+        break
+while N >= 50 and N < 65:
+    if N >= 50 and N < 65:
+        print("Menu:")
+        print("Plano Bronze - opção 1")
+        print("Plano Ouro - opção 2")
+        
+        opcao = input("Digite a opção: ")
+        
+        if opcao == "1":
+            print("Valor do plano Bronze: 950 R$")
+        elif opcao == "2":
+            print("Valor do plano Ouro: 1300 R$")
+        else:
+            print("Opção inválida. Por favor, digite 1 para Plano Bronze ou 2 para Plano Ouro.")
+        break
+while N >= 65 and N < 80:
+    if N >= 65 and N < 80:
+        print("Menu:")
+        print("Plano Bronze - opção 1")
+        print("Plano Ouro - opção 2")
+        
+        opcao = input("Digite a opção: ")
+        
+        if opcao == "1":
+            print("Valor do plano Bronze: 1300 R$")
+        elif opcao == "2":
+            print("Valor do plano Ouro: 1800 R$")
+        else:
+            print("Opção inválida. Por favor, digite 1 para Plano Bronze ou 2 para Plano Ouro.")
+            break
+while N >= 80:
+    if N >= 80:
+        print("Menu:")
+        print("Plano Bronze - opção 1")
+        print("Plano Ouro - opção 2")
+        
+        opcao = input("Digite a opção: ")
+        
+        if opcao == "1":
+            print("Valor do plano Bronze: 2000 R$")
+        elif opcao == "2":
+            print("Valor do plano Ouro: 2600 R$")
+        else:
+            print("Opção inválida. Por favor, digite 1 para Plano Bronze ou 2 para Plano Ouro.")
+        break
+print("fim")
+
+  
+   
